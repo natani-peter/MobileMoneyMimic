@@ -2,6 +2,9 @@ from pathlib import Path
 import configparser
 from urllib.parse import quote
 my_file_path = "D:/DOCUMENTS/PYTHON/config.ini"
+# change the  location of your .ini file if none hard code
+# your postgres credentials though it is not recommended 
+
 config_path = Path(my_file_path)
 
 config = configparser.ConfigParser()
